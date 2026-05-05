@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Agregar un borde rojo a todo el contenido
     document.body.style.border = "5px solid red";
 
- // Hora al hacer clic - No funciona en botones, enlaces, inputs, textareas ni selects
-document.body.addEventListener("clik", (e) => {
+ 
+document.body.addEventListener("click", (e) => {
     const elementosIgnorar = e.target.closest("button, a, input, textarea, select, label");
     
     if (!elementosIgnorar) {
