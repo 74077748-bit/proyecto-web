@@ -11,22 +11,22 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // Agregar un borde rojo a todo el contenido
+    // borde
     document.body.style.border = "5px solid red";
 
- 
+ // hora
 document.body.addEventListener("click", (e) => {
     const elementosIgnorar = e.target.closest("button, a, input, textarea, select, label");
     
     if (!elementosIgnorar) {
-        alert("🕐 " + new Date().toLocaleTimeString());
+        alert("🕐 " + new Date());
     }
 });
 
-// Cronómetro simple
+// cronómetro 
 let s = 0;
 const reloj = document.createElement("div");
-reloj.style.cssText = "position:fixed; top:10px; left:10px; background:red; color:white; padding:5px;";
+reloj.style.cssText = "position:fixed; top:10px; left:10px; background:blue; color:white; padding:10px;";
 reloj.textContent = "0s";
 document.body.appendChild(reloj);
 

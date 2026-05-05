@@ -7,7 +7,7 @@
     --grisClaro: #E2E8F0;
 }
 
-/* Globales */
+
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -30,12 +30,11 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* ALTURA CORTA - solo lo necesario para el contenido */
-    min-height: auto;
+     min-height: auto;
     padding: 1rem 0;
 }
 
-/* Header */
+
 header {
     text-align: center;
     padding: 3rem 2rem 1rem 2rem;
@@ -48,7 +47,7 @@ header h1 {
     letter-spacing: 2px;
 }
 
-/* Navegación */
+
 nav {
     display: flex;
     flex-direction: column;
@@ -82,7 +81,7 @@ nav a:hover {
     transform: scale(1.05);
 }
 
-/* Hero Section */
+
 .hero-section {
     display: flex;
     align-items: center;
@@ -136,7 +135,7 @@ nav a:hover {
     box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 }
 
-/* Main y servicios */
+
 main {
     max-width: 120rem;
     margin: 0 auto;
@@ -189,7 +188,7 @@ main section p {
     line-height: 1.6;
 }
 
-/* Sección de contacto */
+
 body > section:last-of-type {
     background-color: var(--grisClaro);
     padding: 4rem 2rem;
@@ -282,7 +281,7 @@ button:hover {
     background-color: var(--primario);
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 2rem;
